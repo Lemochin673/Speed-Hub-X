@@ -1,0 +1,8 @@
+local function ScreenGui()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lemochin673/Speed-Hub-X/refs/heads/main/LoadingScreen.txt"))()
+end
+local function Script()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lemochin673/Speed-Hub-X/refs/heads/main/Grow_a_garden_script.txt"))()
+end
+task.spawn(Script)
+task.spawn(ScreenGui)
